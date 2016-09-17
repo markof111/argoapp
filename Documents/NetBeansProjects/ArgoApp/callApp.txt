@@ -1,0 +1,14 @@
+add plot
+http://localhost:3000/plot?plotId=1&subPlotAmmount=8&groingType=wheat
+
+list plot
+http://localhost:3000/plots
+
+add sensor
+http://localhost:3000/sensor?sensorNum=1&plotId=3&sensorType=sun&reading=50
+
+add sensorReading
+http://localhost:3000/sensorReading?sensorNum=8&reading=50
+
+calc
+http://localhost:3000/calc?plotId=3
